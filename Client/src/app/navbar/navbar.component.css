@@ -1,0 +1,78 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px;
+}
+
+.navbar__title {
+  font-size: 3rem;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+.navbar__search {
+  width: inherit;
+}
+
+.navbar__search > input {
+  width: 250px;
+  border-radius: 15px;
+  height: 35px;
+  margin-right: 10px;
+  padding-left: 20px;
+  font-family: "Courier New", Courier, monospace;
+  letter-spacing: 2px;
+}
+
+.button {
+  height: 35px;
+  background-color: #fee996;
+  width: 100px;
+  text-align: center;
+  font-weight: bold;
+  color: black;
+  border-radius: 15px;
+  border: none;
+  margin-right: 20px;
+  text-transform: uppercase;
+  font-family: "Covered By Your Grace", cursive;
+  letter-spacing: 2.5px;
+}
+
+.login__page  {
+  width: 200px;
+  height: 250px;
+  position: absolute;
+  margin-top: 20px;
+  margin-right: 150px;
+  background-color: whitesmoke;
+  
+}
+
+.login__page > input {
+  width: 150px;
+  border-radius: 15px;
+  height: 35px;
+  font-family: "Courier New", Courier, monospace;
+  letter-spacing: 2px;
+  margin-left: 20px;
+  padding-left: 20px;
+}
+
+.login__page > button {
+  height: 35px;
+  background-color: #fee996;
+  width: 100px;
+  text-align: center;
+  font-weight: bold;
+  color: black;
+  border-radius: 15px;
+  border: none;
+  margin-right: 20px;
+  text-transform: uppercase;
+  font-family: "Covered By Your Grace", cursive;
+  letter-spacing: 2.5px;
+  margin-left: 20px;
+  margin-top: 20px;
+}

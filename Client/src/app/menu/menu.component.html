@@ -1,0 +1,10 @@
+<section>
+  <ul class="menu__grid" *ngFor="let product of products">
+    <li class="menu__pizza">
+      <img src={{product.img}} alt={{product.name}} class="menu__img">
+      <h1>{{product.name}}</h1>
+      <h3>{{product.desc}}</h3>
+      <button>Order</button>
+    </li>
+  </ul>
+</section>
