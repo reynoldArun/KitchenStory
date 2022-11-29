@@ -46,7 +46,8 @@
   position: absolute;
   margin-top: 20px;
   margin-right: 150px;
-  background-color: whitesmoke;
+  background: linear-gradient(to right, #0d324d, #7f5a83);
+  text-align: center;
   
 }
 
