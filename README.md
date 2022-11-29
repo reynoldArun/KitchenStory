@@ -2,7 +2,7 @@
 
 ### Screenshot
 
-![](./img/img.jpg)
+![](./img/img.png)
 
 
 ### Built with
